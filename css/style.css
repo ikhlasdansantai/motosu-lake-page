@@ -80,7 +80,6 @@
   padding: 1rem;
   border-radius: 10px;
   z-index: 1;
-  border: 1px solid green;
 }
 .form h1,
 .form p {
@@ -432,7 +431,12 @@ input[type="number"] {
     flex-direction: row;
     /* border: 2px solid orange; */
     overflow: hidden;
+    text-align: center;
   }
+  .button {
+    margin: 2rem auto;
+  }
+
   .button a:hover {
     color: #ccc;
   }
